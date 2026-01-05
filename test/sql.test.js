@@ -36,13 +36,13 @@ describe('sql connector', function() {
             dataLength: 32,
           },
         }, middleName: {
-          type: Boolean,
+          type: String,
           name: 'middle_name',
           postgresql: {
             column: 'MIDDLENAME',
           },
         }, lastName: {
-          type: Boolean,
+          type: String,
           name: 'last_name',
           testdb: {
             column: 'LASTNAME',
@@ -55,6 +55,13 @@ describe('sql connector', function() {
         }, primaryAddress: {
           type: String,
           name: 'primary_address',
+        }, token: {
+          type: String,
+          name: 'token',
+          readOnly: true,
+          testdb: {
+            column: 'TOKEN',
+          },
         },
         address: String,
       },
@@ -63,6 +70,7 @@ describe('sql connector', function() {
       {
         id: {
           id: true,
+          generated: true,
           type: Number,
           testdb: {
             column: 'orderId',
@@ -278,6 +286,27 @@ describe('sql connector', function() {
     );
   });
 
+  it('builds fields for UPDATE without readOnlys', function() {
+    const fields = connector.buildFieldsForReplace('customer', {
+      middleName: '',
+      lastName: 'Libert',
+      vip: true,
+      token: null,
+      address: '1031 NW 7th Ave, Fort Lauderdale, Florida, United States',
+      primaryAddress: '1031 NW 7th Ave, Fort Lauderdale, Florida, United States',
+    });
+    expect(fields.toJSON()).to.eql({
+      sql: 'SET `middle_name`=?,`LASTNAME`=?,`VIP`=?,`primary_address`=?,`ADDRESS`=?',
+      params: [
+        '',
+        'Libert',
+        true,
+        '1031 NW 7th Ave, Fort Lauderdale, Florida, United States',
+        '1031 NW 7th Ave, Fort Lauderdale, Florida, United States',
+      ],
+    });
+  });
+
   it('builds fields for UPDATE without ids', function() {
     const fields = connector.buildFieldsForUpdate('customer',
       {name: 'John', vip: true});
@@ -299,7 +328,7 @@ describe('sql connector', function() {
   it('builds column names for SELECT', function() {
     const cols = connector.buildColumnNames('customer');
     expect(cols).to.eql('`NAME`,`middle_name`,`LASTNAME`,`VIP`,' +
-      '`primary_address`,`ADDRESS`');
+      '`primary_address`,`TOKEN`,`ADDRESS`');
   });
 
   it('builds column names with true fields filter for SELECT', function() {
@@ -313,6 +342,7 @@ describe('sql connector', function() {
         name: false,
         primaryAddress: false,
         lastName: false,
+        token: false,
         middleName: false,
       },
     });
@@ -349,7 +379,7 @@ describe('sql connector', function() {
     expect(sql.toJSON()).to.eql({
       sql:
         'SELECT `NAME`,`middle_name`,`LASTNAME`,`VIP`,`primary_address`,' +
-        '`ADDRESS` FROM `CUSTOMER` WHERE ((`NAME`=$1) OR (`ADDRESS`=$2)) ' +
+        '`TOKEN`,`ADDRESS` FROM `CUSTOMER` WHERE ((`NAME`=$1) OR (`ADDRESS`=$2)) ' +
         'AND `VIP`=$3 ORDER BY `NAME` LIMIT 5',
       params: ['Top Cat', 'Trash can', true],
     });
@@ -359,8 +389,8 @@ describe('sql connector', function() {
     const sql = connector.buildSelect('customer',
       {order: 'name', limit: 5, where: {name: 'John'}});
     expect(sql.toJSON()).to.eql({
-      sql: 'SELECT `NAME`,`middle_name`,`LASTNAME`,`VIP`,`primary_address`,`ADDRESS`' +
-      ' FROM `CUSTOMER`' +
+      sql: 'SELECT `NAME`,`middle_name`,`LASTNAME`,`VIP`,`primary_address`,`TOKEN`,' +
+      '`ADDRESS` FROM `CUSTOMER`' +
       ' WHERE `NAME`=$1 ORDER BY `NAME` LIMIT 5',
       params: ['John'],
     });
@@ -513,5 +543,87 @@ describe('sql connector', function() {
 
     expect(function() { runExecute(); }).to.not.throw();
     ds.connected = true;
+  });
+
+  it('should return null for INSERT multiple rows if multiInsertSupported is false',
+    function() {
+      connector.multiInsertSupported = false;
+      const sql = connector.buildInsertAll('customer', [
+        {name: 'Adam', middleName: 'abc', vip: true},
+        {name: 'Test', middleName: null, vip: false},
+      ]);
+      // eslint-disable-next-line no-unused-expressions
+      expect(sql).to.be.null;
+    });
+
+  it('should return null for INSERT multiple rows if multiInsertSupported not set',
+    function() {
+      const sql = connector.buildInsertAll('customer', [
+        {name: 'Adam', middleName: 'abc', vip: true},
+        {name: 'Test', middleName: null, vip: false},
+      ]);
+      // eslint-disable-next-line no-unused-expressions
+      expect(sql).to.be.null;
+    });
+
+  context('when multiInsertSupported is true', function() {
+    beforeEach(function() {
+      connector.multiInsertSupported = true;
+    });
+
+    it('should build INSERT for multiple rows', function() {
+      connector.multiInsertSupported = true;
+      const sql = connector.buildInsertAll('customer', [
+        {name: 'Adam', middleName: 'abc', vip: true},
+        {name: 'Test', middleName: null, vip: false},
+      ]);
+      expect(sql.toJSON()).to.eql({
+        sql:
+      'INSERT INTO `CUSTOMER`(`NAME`,`middle_name`,`VIP`) VALUES ($1,$2,$3), ($4,$5,$6)',
+        params: ['Adam', 'abc', true, 'Test', null, false],
+      });
+    });
+
+    it('should build INSERT for array w/ undefined properties in first row', function() {
+      connector.multiInsertSupported = true;
+      const sql = connector.buildInsertAll('customer', [
+        {name: 'Adam', middleName: 'abc'},
+        {name: 'Test', middleName: null, vip: false},
+      ]);
+      expect(sql.toJSON()).to.eql({
+        sql:
+      'INSERT INTO `CUSTOMER`(`NAME`,`middle_name`,`VIP`) VALUES ($1,$2,$3), ($4,$5,$6)',
+        params: ['Adam', 'abc', null, 'Test', null, false],
+      });
+    });
+
+    context('getInsertedDataArray', function() {
+      context('when id column is auto-generated', function() {
+        it('should return back data with id column', function() {
+          connector.multiInsertSupported = true;
+          const insertedArr = connector.getInsertedDataArray('order', [1, 2], [
+            {des: 'Description 1'},
+            {des: 'Description 2'},
+          ]);
+          expect(insertedArr).to.eql([
+            {id: 1, des: 'Description 1'},
+            {id: 2, des: 'Description 2'},
+          ]);
+        });
+      });
+      context('when id column is not auto-generated', function() {
+        it('should return back same data', function() {
+          connector.multiInsertSupported = true;
+          const insertedArr = connector.getInsertedDataArray('customer', [], [
+            {name: 'Adam', middleName: 'abc', vip: true},
+            {name: 'Test', middleName: null, vip: false},
+          ]);
+          expect(insertedArr).to.eql([
+            {name: 'Adam', middleName: 'abc', vip: true},
+            {name: 'Test', middleName: null, vip: false},
+          ]);
+        });
+      });
+    });
   });
 });

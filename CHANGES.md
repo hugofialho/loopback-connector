@@ -1,3 +1,1189 @@
+2025-12-08, Version 7.0.1
+=========================
+
+ * chore: update dependency uuid to v13 (renovate[bot])
+
+ * chore: lock file maintenance (renovate[bot])
+
+ * chore: update github/codeql-action action to v4.31.7 (renovate[bot])
+
+ * chore: update commitlint monorepo to ^20.2.0 (renovate[bot])
+
+ * chore: update actions/checkout action to v6 (renovate[bot])
+
+ * chore: update actions/setup-node action to v6.1.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v4.31.6 (renovate[bot])
+
+ * chore: update dependency @eslint/eslintrc to ^3.3.3 (renovate[bot])
+
+ * chore: update github/codeql-action action to v4.31.5 (renovate[bot])
+
+ * chore: update github/codeql-action action to v4.31.4 (renovate[bot])
+
+ * chore: update actions/checkout action to v5.0.1 (renovate[bot])
+
+ * chore: update dependency loopback-datasource-juggler to v6 (renovate[bot])
+
+ * chore: update github/codeql-action action to v4.31.3 (renovate[bot])
+
+
+2025-11-11, Version 7.0.0
+=========================
+
+ * chore: lock file maintenance (renovate[bot])
+
+ * chore: update dependency node to v22.21.1 (renovate[bot])
+
+ * chore: update dependency eslint to ^9.39.1 (renovate[bot])
+
+ * chore: update dependency mocha to ^11.7.5 (renovate[bot])
+
+ * chore: drop Node.js 18 support (dhmlau)
+
+ * chore: update github/codeql-action action to v4.31.2 (renovate[bot])
+
+ * chore: update github/codeql-action action to v4.31.0 (renovate[bot])
+
+ * chore: update dependency eslint to ^9.38.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v4.30.9 (renovate[bot])
+
+
+2025-10-14, Version 6.2.12
+==========================
+
+ * chore: update actions/setup-node action to v6 (renovate[bot])
+
+ * chore: update github/codeql-action action to v4 (renovate[bot])
+
+ * chore: lock file maintenance (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.30.8 (renovate[bot])
+
+ * chore: update commitlint monorepo to v20 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.30.7 (renovate[bot])
+
+ * chore: update dependency eslint to ^9.37.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.30.6 (renovate[bot])
+
+ * chore: update dependency mocha to ^11.7.4 (renovate[bot])
+
+ * chore: update dependency mocha to ^11.7.3 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.30.5 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.30.4 (renovate[bot])
+
+ * chore: update dependency eslint to ^9.36.0 (renovate[bot])
+
+ * chore: update dependency debug to ^4.4.3 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.30.3 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.30.2 (renovate[bot])
+
+
+2025-09-08, Version 6.2.11
+==========================
+
+ * chore: update dependency loopback-datasource-juggler to ^5.2.1 (renovate[bot])
+
+
+2025-09-08, Version 6.2.9
+=========================
+
+ * fix: revert to debug@4.4.1 (dhmlau)
+
+
+2025-09-08, Version 6.2.8
+=========================
+
+ * chore: update dependency debug to ^4.4.2 (renovate[bot])
+
+ * chore: lock file maintenance (renovate[bot])
+
+ * chore: update dependency eslint to ^9.35.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.30.1 (renovate[bot])
+
+ * chore: update actions/setup-node action to v5 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.30.0 (renovate[bot])
+
+ * chore: update dependency mocha to ^11.7.2 (renovate[bot])
+
+ * chore: update dependency eslint to ^9.34.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.29.11 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.29.10 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.29.9 (renovate[bot])
+
+ * chore: update dependency loopback-datasource-juggler to ^5.1.11 (renovate[bot])
+
+
+2025-08-11, Version 6.2.7
+=========================
+
+ * chore: update actions/checkout action to v5 (renovate[bot])
+
+ * chore: update actions/checkout action to v4.3.0 (renovate[bot])
+
+ * chore: lock file maintenance (renovate[bot])
+
+ * chore: update dependency node to v18.20.8 (renovate[bot])
+
+ * chore: update dependency eslint to ^9.33.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.29.8 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.29.7 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.29.5 (renovate[bot])
+
+ * chore: update dependency eslint to ^9.32.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.29.4 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.29.3 (renovate[bot])
+
+ * chore: update dependency loopback-datasource-juggler to ^5.1.10 (renovate[bot])
+
+
+2025-07-14, Version 6.2.6
+=========================
+
+ * chore: lock file maintenance (renovate[bot])
+
+ * chore: update dependency eslint to ^9.31.0 (renovate[bot])
+
+ * chore: update dependency eslint to ^9.30.1 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.29.2 (renovate[bot])
+
+ * chore: update dependency eslint to ^9.30.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.29.1 (renovate[bot])
+
+ * chore: update dependency mocha to ^11.7.1 (renovate[bot])
+
+ * chore: update dependency mocha to ^11.7.0 (renovate[bot])
+
+ * chore: update dependency eslint to ^9.29.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.29.0 (renovate[bot])
+
+ * chore: update dependency loopback-datasource-juggler to ^5.1.9 (renovate[bot])
+
+ * chore: update dependency mocha to ^11.6.0 (renovate[bot])
+
+
+2025-06-09, Version 6.2.5
+=========================
+
+ * chore: lock file maintenance (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.28.19 (renovate[bot])
+
+ * chore: update dependency eslint to ^9.28.0 (renovate[bot])
+
+ * chore: update dependency msgpack5 to v6 (renovate[bot])
+
+ * chore: update dependency mocha to ^11.5.0 (renovate[bot])
+
+ * chore: update dependency mocha to ^11.4.0 (renovate[bot])
+
+ * chore: update dependency eslint to ^9.27.0 (renovate[bot])
+
+ * chore: update dependency mocha to ^11.3.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.28.18 (renovate[bot])
+
+ * chore: update dependency debug to ^4.4.1 (renovate[bot])
+
+
+2025-05-12, Version 6.2.4
+=========================
+
+ * chore: update dependency loopback-datasource-juggler to ^5.1.8 (renovate[bot])
+
+ * chore: lock file maintenance (renovate[bot])
+
+ * chore: update commitlint monorepo to ^19.8.1 (renovate[bot])
+
+ * chore: update dependency eslint to ^9.26.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.28.17 (renovate[bot])
+
+ * chore: update dependency mocha to ^11.2.2 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.28.16 (renovate[bot])
+
+ * chore: update dependency eslint to ^9.25.1 (renovate[bot])
+
+ * chore: update dependency eslint to ^9.25.0 (renovate[bot])
+
+ * chore: update dependency loopback-datasource-juggler to ^5.1.7 (renovate[bot])
+
+
+2025-04-14, Version 6.2.3
+=========================
+
+ * chore: lock file maintenance (renovate[bot])
+
+ * chore: update actions/setup-node action to v4.4.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.28.15 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.28.14 (renovate[bot])
+
+ * chore: update dependency eslint to ^9.24.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.28.13 (renovate[bot])
+
+ * chore: update dependency eslint to ^9.23.0 (renovate[bot])
+
+ * chore: update dependency @eslint/eslintrc to ^3.3.1 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.28.12 (renovate[bot])
+
+ * chore: update dependency loopback-datasource-juggler to ^5.1.6 (renovate[bot])
+
+
+2025-03-17, Version 6.2.2
+=========================
+
+ * chore: lock file maintenance (renovate[bot])
+
+ * chore: update actions/setup-node action to v4.3.0 (renovate[bot])
+
+ * chore: update dependency eslint to ^9.22.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.28.11 (renovate[bot])
+
+ * chore: update commitlint monorepo to ^19.8.0 (renovate[bot])
+
+ * chore: update dependency eslint to ^9.21.0 (renovate[bot])
+
+ * chore: update dependency @eslint/eslintrc to ^3.3.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.28.10 (renovate[bot])
+
+ * chore: update dependency uuid to ^11.1.0 (renovate[bot])
+
+ * chore: update dependency eslint to ^9.20.1 (renovate[bot])
+
+ * chore: update dependency loopback-datasource-juggler to ^5.1.5 (renovate[bot])
+
+
+2025-02-10, Version 6.2.1
+=========================
+
+ * chore: lock file maintenance (renovate[bot])
+
+ * chore: update dependency eslint to ^9.20.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.28.9 (renovate[bot])
+
+ * chore: update commitlint monorepo to ^19.7.1 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.28.8 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.28.6 (renovate[bot])
+
+ * chore: update actions/setup-node action to v4.2.0 (renovate[bot])
+
+ * chore: update coverallsapp/github-action action to v2.3.6 (renovate[bot])
+
+ * chore: update coverallsapp/github-action action to v2.3.5 (renovate[bot])
+
+ * chore: update dependency eslint to ^9.19.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.28.5 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.28.4 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.28.3 (renovate[bot])
+
+ * chore: update dependency mocha to ^11.1.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.28.2 (renovate[bot])
+
+ * chore: update dependency loopback-datasource-juggler to ^5.1.4 (renovate[bot])
+
+
+2025-01-13, Version 6.2.0
+=========================
+
+ * feat: query to fetch unique columns (Muhammad Aaqil)
+
+ * chore: lock file maintenance (renovate[bot])
+
+ * chore: update dependency eslint to ^9.18.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.28.1 (renovate[bot])
+
+ * chore: update dependency uuid to ^11.0.5 (renovate[bot])
+
+ * chore: update dependency uuid to ^11.0.4 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.28.0 (renovate[bot])
+
+ * chore: update dependency commitlint to ^19.6.1 (renovate[bot])
+
+ * chore: update dependency eslint to ^9.17.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.27.9 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.27.7 (renovate[bot])
+
+ * chore: update dependency debug to ^4.4.0 (renovate[bot])
+
+ * chore: update dependency loopback-datasource-juggler to ^5.1.3 (renovate[bot])
+
+
+2024-12-04, Version 6.1.12
+==========================
+
+ * chore: update dependency mocha to v11 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.27.6 (renovate[bot])
+
+ * chore: lock file maintenance (renovate[bot])
+
+ * chore: update dependency eslint to ^9.16.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.27.5 (renovate[bot])
+
+ * chore: update commitlint monorepo to ^19.6.0 (renovate[bot])
+
+ * chore: update dependency eslint to ^9.15.0 (renovate[bot])
+
+ * chore: update dependency @eslint/eslintrc to ^3.2.0 (renovate[bot])
+
+ * chore: update dependency eslint to v9 (Rifa Achrinza)
+
+ * chore: update github/codeql-action action to v3.27.4 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.27.3 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.27.2 (renovate[bot])
+
+
+2024-11-11, Version 6.1.11
+==========================
+
+ * chore: update dependency uuid to v11 (renovate[bot])
+
+ * chore: update dependency loopback-datasource-juggler to ^5.1.2 (renovate[bot])
+
+ * chore: lock file maintenance (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.27.1 (renovate[bot])
+
+ * chore: update dependency mocha to ^10.8.2 (renovate[bot])
+
+ * chore: update dependency mocha to ^10.8.1 (renovate[bot])
+
+ * chore: update coverallsapp/github-action action to v2.3.4 (renovate[bot])
+
+ * chore: update actions/setup-node action to v4.1.0 (renovate[bot])
+
+ * chore: update actions/checkout action to v4.2.2 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.27.0 (renovate[bot])
+
+ * chore: update coverallsapp/github-action action to v2.3.3 (renovate[bot])
+
+ * chore: update coverallsapp/github-action action to v2.3.2 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.26.13 (renovate[bot])
+
+
+2024-10-11, Version 6.1.10
+==========================
+
+ * chore: update dependency loopback-datasource-juggler to ^5.1.1 (renovate[bot])
+
+ * chore: update coverallsapp/github-action action to v2.3.1 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.26.12 (renovate[bot])
+
+ * chore: update actions/checkout action to v4.2.1 (renovate[bot])
+
+ * chore: lock file maintenance (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.26.11 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.26.10 (renovate[bot])
+
+ * chore: update actions/checkout action to v4.2.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.26.9 (renovate[bot])
+
+ * chore: update actions/setup-node action to v4.0.4 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.26.8 (renovate[bot])
+
+ * chore: update dependency nyc to ^17.1.0 (renovate[bot])
+
+ * chore: update dependency eslint to ^8.57.1 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.26.7 (renovate[bot])
+
+ * chore: update commitlint monorepo to ^19.5.0 (renovate[bot])
+
+ * chore: update dependency loopback-datasource-juggler to ^5.1.0 (renovate[bot])
+
+
+2024-09-09, Version 6.1.9
+=========================
+
+ * chore: lock file maintenance (renovate[bot])
+
+ * chore: update dependency debug to ^4.3.7 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.26.6 (renovate[bot])
+
+ * chore: update commitlint monorepo to ^19.4.1 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.26.5 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.26.4 (renovate[bot])
+
+ * chore: update dependency async to ^3.2.6 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.26.3 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.26.2 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.26.1 (renovate[bot])
+
+
+2024-08-12, Version 6.1.8
+=========================
+
+ * chore: update dependency loopback-datasource-juggler to ^5.0.12 (renovate[bot])
+
+ * chore: lock file maintenance (renovate[bot])
+
+ * chore: update dependency mocha to ^10.7.3 (renovate[bot])
+
+ * chore: update dependency commitlint to ^19.4.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.26.0 (renovate[bot])
+
+ * chore: update dependency debug to ^4.3.6 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.25.15 (renovate[bot])
+
+ * chore: update dependency chai to ^4.5.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.25.14 (renovate[bot])
+
+ * chore: update dependency mocha to ^10.7.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.25.13 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.25.12 (renovate[bot])
+
+ * chore: update actions/setup-node action to v4.0.3 (renovate[bot])
+
+ * chore: update dependency loopback-datasource-juggler to ^5.0.11 (renovate[bot])
+
+
+2024-07-03, Version 6.1.7
+=========================
+
+ * chore: update dependency mocha to ^10.6.0 (renovate[bot])
+
+ * chore: update dependency uuid to v10 (renovate[bot])
+
+ * chore: lock file maintenance (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.25.11 (renovate[bot])
+
+ * chore: update dependency nyc to v17 (renovate[bot])
+
+ * fix: handle undefined properties in insert all (Kyle Hoskins)
+
+ * chore: update dependency mocha to ^10.5.2 (renovate[bot])
+
+ * chore: update dependency mocha to ^10.5.1 (renovate[bot])
+
+ * chore: update dependency mocha to ^10.5.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.25.10 (renovate[bot])
+
+ * chore: update actions/checkout action to v4.1.7 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.25.9 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.25.8 (renovate[bot])
+
+
+2024-06-06, Version 6.1.6
+=========================
+
+ * chore: update dependency loopback-datasource-juggler to ^5.0.10 (renovate[bot])
+
+ * chore: lock file maintenance (renovate[bot])
+
+ * chore: update dependency debug to ^4.3.5 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.25.7 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.25.6 (renovate[bot])
+
+ * chore: update actions/checkout action to v4.1.6 (renovate[bot])
+
+ * chore: update dependency loopback-datasource-juggler to ^5.0.9 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.25.5 (renovate[bot])
+
+
+2024-05-13, Version 6.1.5
+=========================
+
+ * chore: lock file maintenance (renovate[bot])
+
+ * chore: update dependency chai-as-promised to ^7.1.2 (renovate[bot])
+
+ * chore: update coverallsapp/github-action action to v2.3.0 (renovate[bot])
+
+ * chore: update actions/checkout action to v4.1.5 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.25.4 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.25.3 (renovate[bot])
+
+ * chore: update actions/checkout action to v4.1.4 (renovate[bot])
+
+ * chore: update dependency commitlint to ^19.3.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.25.2 (renovate[bot])
+
+ * chore: update actions/checkout action to v4.1.3 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.25.1 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.25.0 (renovate[bot])
+
+ * chore: update dependency node to v17.9.1 (renovate[bot])
+
+ * chore: update dependency node to v16.20.2 (renovate[bot])
+
+ * chore: update dependency node to v14.21.3 (renovate[bot])
+
+ * chore: update dependency node to v12.22.12 (renovate[bot])
+
+ * chore: update dependency node to v10.24.1 (renovate[bot])
+
+ * chore: update commitlint monorepo to ^19.2.2 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.24.10 (renovate[bot])
+
+ * chore: update dependency loopback-datasource-juggler to ^5.0.8 (renovate[bot])
+
+
+2024-04-04, Version 6.1.4
+=========================
+
+ * chore: lock file maintenance (renovate[bot])
+
+ * chore: update dependency mocha to ^10.4.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.24.9 (renovate[bot])
+
+ * chore: update dependency commitlint to ^19.2.1 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.24.8 (renovate[bot])
+
+ * chore: update dependency commitlint to ^19.2.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.24.7 (renovate[bot])
+
+ * chore: update commitlint monorepo to ^19.1.0 (renovate[bot])
+
+ * chore: update dependency loopback-datasource-juggler to ^5.0.7 (renovate[bot])
+
+
+2024-03-06, Version 6.1.3
+=========================
+
+ * chore: lock file maintenance (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.24.6 (renovate[bot])
+
+ * chore: update commitlint monorepo to ^19.0.3 (renovate[bot])
+
+ * chore: update commitlint monorepo to v19 (renovate[bot])
+
+ * chore: update dependency eslint to ^8.57.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.24.5 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.24.4 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.24.3 (renovate[bot])
+
+ * chore: update dependency @commitlint/config-conventional to ^18.6.2 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.24.1 (renovate[bot])
+
+ * chore: update commitlint monorepo to ^18.6.1 (renovate[bot])
+
+
+2024-02-12, Version 6.1.2
+=========================
+
+ * chore: update dependency loopback-datasource-juggler to ^5.0.6 (renovate[bot])
+
+ * chore: lock file maintenance (renovate[bot])
+
+ * chore: update dependency mocha to ^10.3.0 (renovate[bot])
+
+ * chore: update actions/setup-node action to v4.0.2 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.24.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.23.2 (renovate[bot])
+
+ * chore: update commitlint monorepo to ^18.6.0 (renovate[bot])
+
+ * chore: update commitlint monorepo to ^18.5.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.23.1 (renovate[bot])
+
+ * chore: update dependency chai to ^4.4.1 (renovate[bot])
+
+ * chore: update dependency loopback-datasource-juggler to ^5.0.5 (renovate[bot])
+
+
+2024-01-09, Version 6.1.1
+=========================
+
+ * chore: update github/codeql-action action to v3.23.0 (renovate[bot])
+
+ * chore: lock file maintenance (renovate[bot])
+
+ * chore: update dependency chai to ^4.4.0 (renovate[bot])
+
+ * chore: update commitlint monorepo to ^18.4.4 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3.22.12 (renovate[bot])
+
+ * chore: update actions/setup-node action to v4.0.1 (renovate[bot])
+
+ * chore: update dependency eslint to ^8.56.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v3 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.22.10 (renovate[bot])
+
+ * chore: update dependency loopback-datasource-juggler to ^5.0.4 (renovate[bot])
+
+
+2023-12-07, Version 6.1.0
+=========================
+
+ * chore: update github/codeql-action action to v2.22.9 (renovate[bot])
+
+ * feat: pass options to buildQueryColumns (Muhammad Aaqil)
+
+ * chore: lock file maintenance (renovate[bot])
+
+ * chore: update dependency eslint to ^8.55.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.22.8 (renovate[bot])
+
+ * chore: update commitlint monorepo to ^18.4.3 (renovate[bot])
+
+ * chore: update dependency eslint to ^8.54.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.22.7 (renovate[bot])
+
+ * chore: update commitlint monorepo to ^18.4.2 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.22.6 (renovate[bot])
+
+ * chore: update dependency loopback-datasource-juggler to ^5.0.3 (renovate[bot])
+
+
+2023-11-13, Version 6.0.4
+=========================
+
+ * chore: update dependency loopback-datasource-juggler to v5 (renovate[bot])
+
+ * chore: drop support for Node.js 16 and lower (dhmlau)
+
+ * chore: lock file maintenance (renovate[bot])
+
+ * chore: update dependency commitlint to ^18.4.1 (renovate[bot])
+
+ * chore: update commitlint monorepo to ^18.4.0 (renovate[bot])
+
+ * chore: update dependency eslint to ^8.53.0 (renovate[bot])
+
+ * chore: update dependency async to ^3.2.5 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.22.5 (renovate[bot])
+
+ * chore: update dependency commitlint to ^18.2.0 (renovate[bot])
+
+ * chore: update actions/setup-node action to v4 (renovate[bot])
+
+ * chore: update commitlint monorepo to ^18.1.0 (renovate[bot])
+
+ * chore: update actions/setup-node action to v3.8.2 (renovate[bot])
+
+ * chore: update commitlint monorepo to v18 (renovate[bot])
+
+ * chore: update dependency eslint to ^8.52.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.22.4 (renovate[bot])
+
+ * chore: update commitlint monorepo to ^17.8.1 (renovate[bot])
+
+ * chore: update actions/checkout action to v4.1.1 (renovate[bot])
+
+
+2023-10-16, Version 6.0.3
+=========================
+
+ * chore: lock file maintenance (renovate[bot])
+
+ * chore: update commitlint monorepo to ^17.8.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.22.3 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.22.2 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.22.1 (renovate[bot])
+
+ * chore: update dependency eslint to ^8.51.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.22.0 (renovate[bot])
+
+ * chore: update actions/checkout action to v4 (renovate[bot])
+
+ * chore: update dependency eslint to ^8.50.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.21.9 (renovate[bot])
+
+ * chore: update dependency commitlint to ^17.7.2 (renovate[bot])
+
+ * chore: update dependency chai to ^4.3.10 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.21.8 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.21.7 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.21.6 (renovate[bot])
+
+ * chore: update dependency uuid to ^9.0.1 (renovate[bot])
+
+
+2023-09-11, Version 6.0.2
+=========================
+
+ * chore: lock file maintenance (renovate[bot])
+
+ * chore: update dependency eslint to ^8.49.0 (renovate[bot])
+
+ * chore: update coverallsapp/github-action action to v2.2.3 (renovate[bot])
+
+ * chore: update coverallsapp/github-action action to v2.2.2 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.21.5 (renovate[bot])
+
+ * chore: update dependency eslint to ^8.48.0 (renovate[bot])
+
+ * chore: update actions/checkout action to v3.6.0 (renovate[bot])
+
+ * chore: update dependency chai to ^4.3.8 (renovate[bot])
+
+ * chore: update actions/setup-node action to v3.8.1 (renovate[bot])
+
+ * chore: update dependency strong-globalize to ^6.0.6 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.21.4 (renovate[bot])
+
+ * chore: update dependency loopback-datasource-juggler to ^4.28.9 (renovate[bot])
+
+
+2023-08-14, Version 6.0.1
+=========================
+
+ * chore: update actions/setup-node action to v3.8.0 (renovate[bot])
+
+ * chore: lock file maintenance (renovate[bot])
+
+ * chore: update dependency eslint to ^8.47.0 (renovate[bot])
+
+ * chore: update dependency commitlint to ^17.7.1 (renovate[bot])
+
+ * chore: update commitlint monorepo to ^17.7.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.21.3 (renovate[bot])
+
+ * chore: update dependency eslint to ^8.46.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.21.2 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.21.1 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.21.0 (renovate[bot])
+
+ * chore: update commitlint monorepo to ^17.6.7 (renovate[bot])
+
+
+2023-07-16, Version 6.0.0
+=========================
+
+ * chore: lock file maintenance (renovate[bot])
+
+ * chore: update dependency eslint to ^8.45.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.20.4 (renovate[bot])
+
+ * chore: update coverallsapp/github-action action to v2.2.1 (renovate[bot])
+
+ * chore: update dependency loopback-datasource-juggler to ^4.28.8 (renovate[bot])
+
+ * chore: update dependency eslint to ^8.44.0 (renovate[bot])
+
+ * chore: update actions/setup-node action to v3.7.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.20.3 (renovate[bot])
+
+ * chore: drop support for Node.js 14 and lower (dhmlau)
+
+ * chore: update dependency mocha to v10 (renovate[bot])
+
+
+2023-06-27, Version 5.3.3
+=========================
+
+ * chore: update dependency loopback-datasource-juggler to ^4.28.7 (renovate[bot])
+
+ * chore: lock file maintenance (renovate[bot])
+
+ * chore: update commitlint monorepo to ^17.6.6 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.20.1 (renovate[bot])
+
+ * fix: remove readOnly keys from query (Muhammad Aaqil)
+
+ * chore: update dependency eslint to ^8.43.0 (renovate[bot])
+
+ * chore: update dependency loopback-datasource-juggler to ^4.28.6 (renovate[bot])
+
+
+2023-06-13, Version 5.3.2
+=========================
+
+ * chore: update github/codeql-action action to v2.20.0 (renovate[bot])
+
+ * chore: lock file maintenance (renovate[bot])
+
+ * chore: update actions/checkout action to v3.5.3 (renovate[bot])
+
+ * chore: update coverallsapp/github-action action to v2.2.0 (renovate[bot])
+
+ * chore: update dependency eslint to ^8.42.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.3.6 (renovate[bot])
+
+ * chore: update commitlint monorepo to ^17.6.5 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.3.5 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.3.4 (renovate[bot])
+
+ * chore: update dependency eslint to ^8.41.0 (renovate[bot])
+
+ * chore: update dependency loopback-datasource-juggler to ^4.28.5 (renovate[bot])
+
+
+2023-05-15, Version 5.3.1
+=========================
+
+ * chore: lock file maintenance (renovate[bot])
+
+ * chore: update dependency eslint to ^8.40.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.3.3 (renovate[bot])
+
+ * chore: update commitlint monorepo to ^17.6.3 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.3.2 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.3.1 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.3.0 (renovate[bot])
+
+ * chore: update dependency eslint to ^8.39.0 (renovate[bot])
+
+ * chore: update coverallsapp/github-action action to v2.1.2 (renovate[bot])
+
+ * chore: update coverallsapp/github-action action to v2.1.1 (renovate[bot])
+
+ * chore: update commitlint monorepo to ^17.6.1 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.2.12 (renovate[bot])
+
+ * chore: update dependency loopback-datasource-juggler to ^4.28.4 (renovate[bot])
+
+ * chore: update actions/checkout action to v3.5.2 (renovate[bot])
+
+
+2023-04-13, Version 5.3.0
+=========================
+
+ * chore: update commitlint monorepo to ^17.6.0 (renovate[bot])
+
+ * chore: update actions/checkout action to v3.5.1 (renovate[bot])
+
+ * chore: update coverallsapp/github-action action to v2 (renovate[bot])
+
+ * chore: update dependency eslint to ^8.38.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.2.11 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.2.10 (renovate[bot])
+
+ * chore: update dependency uuid to v9 (renovate[bot])
+
+ * chore: update dependency eslint to ^8.37.0 (renovate[bot])
+
+ * chore: update dependency commitlint to ^17.5.1 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.2.9 (renovate[bot])
+
+ * chore: lock file maintenance (renovate[bot])
+
+ * chore: update actions/checkout action to v3.5.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.2.8 (renovate[bot])
+
+ * chore: update dependency commitlint to ^17.5.0 (renovate[bot])
+
+ * chore: update actions/checkout action to v3.4.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.2.7 (renovate[bot])
+
+ * chore: update dependency eslint to ^8.36.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.2.6 (renovate[bot])
+
+
+2023-03-09, Version 5.2.2
+=========================
+
+ * chore: update dependency loopback-datasource-juggler to ^4.28.3 (renovate[bot])
+
+ * chore: update coverallsapp/github-action action to v1.2.4 (renovate[bot])
+
+ * chore: update coverallsapp/github-action action to v1.2.3 (renovate[bot])
+
+ * chore: update coverallsapp/github-action action to v1.2.2 (renovate[bot])
+
+ * chore: lock file maintenance (renovate[bot])
+
+ * chore: update dependency eslint to ^8.35.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.2.5 (renovate[bot])
+
+ * chore: update coverallsapp/github-action action to v1.2.0 (renovate[bot])
+
+ * chore: update commitlint monorepo to ^17.4.4 (renovate[bot])
+
+ * chore: update commitlint monorepo to ^17.4.3 (renovate[bot])
+
+ * chore: update dependency eslint to ^8.34.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.2.4 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.2.3 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.2.2 (renovate[bot])
+
+ * chore: update dependency loopback-datasource-juggler to ^4.28.2 (renovate[bot])
+
+ * chore: update dependency eslint to ^8.33.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.2.1 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.2.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.1.39 (renovate[bot])
+
+ * chore: update dependency eslint to ^8.32.0 (renovate[bot])
+
+ * chore: update commitlint monorepo to ^17.4.2 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.1.38 (renovate[bot])
+
+ * chore: update dependency loopback-datasource-juggler to ^4.28.1 (renovate[bot])
+
+
+2023-01-09, Version 5.2.1
+=========================
+
+ * chore: update dependency commitlint to ^17.4.1 (renovate[bot])
+
+ * chore: lock file maintenance (renovate[bot])
+
+ * chore: update actions/setup-node action to v3.6.0 (renovate[bot])
+
+ * chore: update actions/checkout action to v3.3.0 (renovate[bot])
+
+ * chore: update commitlint monorepo to ^17.4.0 (renovate[bot])
+
+ * chore: update dependency eslint to ^8.31.0 (renovate[bot])
+
+
+2022-12-21, Version 5.2.0
+=========================
+
+ * chore: lock file maintenance (renovate[bot])
+
+ * chore: update dependency eslint to ^8.30.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.1.37 (renovate[bot])
+
+ * fix: handle non generated ids in bulk insert (Samarpan Bhattacharya)
+
+ * chore: update actions/checkout action to v3.2.0 (renovate[bot])
+
+ * fix: `isRelational` to return a boolean (Rifa Achrinza)
+
+ * feat: return `multiInsertSupported` in `getMetadata` (Rifa Achrinza)
+
+ * chore: update github/codeql-action action to v2.1.36 (renovate[bot])
+
+ * chore: update dependency eslint to ^8.29.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.1.35 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.1.34 (renovate[bot])
+
+ * chore: update commitlint monorepo to ^17.3.0 (renovate[bot])
+
+ * chore: update dependency eslint to ^8.28.0 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.1.33 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.1.32 (renovate[bot])
+
+ * chore: update dependency loopback-datasource-juggler to ^4.28.0 (renovate[bot])
+
+ * chore: update dependency chai to ^4.3.7 (renovate[bot])
+
+
+2022-11-07, Version 5.1.1
+=========================
+
+ * chore: update dependency eslint to ^8.27.0 (renovate[bot])
+
+ * chore: update dependency eslint to v8 (renovate[bot])
+
+ * fix: return inserted ids with models in createAll (Samarpan Bhattacharya)
+
+ * chore: update github/codeql-action action to v2.1.31 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.1.30 (renovate[bot])
+
+ * chore: lock file maintenance (renovate[bot])
+
+ * chore: update commitlint monorepo to ^17.2.0 (renovate[bot])
+
+ * docs: fix broken links (Shubham Prajapat)
+
+ * chore: update github/codeql-action action to v2.1.29 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.1.28 (renovate[bot])
+
+ * chore: update actions/setup-node action to v3.5.1 (renovate[bot])
+
+ * chore: update github/codeql-action action to v2.1.27 (renovate[bot])
+
+ * chore: update actions/checkout action to v3.1.0 (renovate[bot])
+
+
+2022-09-29, Version 5.1.0
+=========================
+
+ * chore: update actions/setup-node action to v3.5.0 (renovate[bot])
+
+ * chore: update commitlint monorepo (renovate[bot])
+
+ * chore: lock file maintenance (renovate[bot])
+
+ * fix: rebiew comments (Samarpan Bhattacharya)
+
+ * feat: add capability for insert multiple rows in single query (Samarpan Bhattacharya)
+
+ * ci: pin GitHub Actions Git hash (Rifa Achrinza)
+
+ * fix: support additional values for Connector.isNullable (Rifa Achrinza)
+
+ * chore: update commitlint monorepo to ^17.0.3 (renovate[bot])
+
+ * chore: update dependency async to ^3.2.4 (Renovate Bot)
+
+ * chore: lock file maintenance (Renovate Bot)
+
+ * chore: update dependency commitlint to ^17.0.1 (Renovate Bot)
+
+ * chore: update commitlint monorepo to v17 (Renovate Bot)
+
+ * chore: update dependency loopback-datasource-juggler to v4 (Renovate Bot)
+
+ * chore: update dependency msgpack5 to ^4.5.1 (Renovate Bot)
+
+ * chore: update dependency uuid to ^8.3.2 (Renovate Bot)
+
+ * chore: update dependency strong-globalize to ^6.0.5 (Renovate Bot)
+
+ * chore: update commitlint monorepo (Renovate Bot)
+
+ * chore: update dependency mocha to ^9.2.2 (Renovate Bot)
+
+ * chore: update dependency loopback-datasource-juggler to ^3.36.1 (Renovate Bot)
+
+ * chore: update dependency eslint to ^7.32.0 (Renovate Bot)
+
+ * ci: update envirnoment (Rifa Achrinza)
+
+ * chore: update dependency debug to ^4.3.4 (Renovate Bot)
+
+ * docs: add SECURITY.md (Diana Lau)
+
+ * chore: update dependency nanoid to 3.1.31 [security] (Renovate Bot)
+
+ * chore: update dependency chai to ^4.3.6 (Renovate Bot)
+
+ * chore: update dependency async to ^3.2.3 (Renovate Bot)
+
+ * ci: add renovate config (Rifa Achrinza)
+
+ * docs: update coc (Diana Lau)
+
+ * docs: add code of conduct (Diana Lau)
+
+ * docs: add ci badges (Rifa Achrinza)
+
+ * ci: update ci (Rifa Achrinza)
+
+ * ci: add github actions (Agnes Lin)
+
+
 2020-11-09, Version 5.0.1
 =========================
 

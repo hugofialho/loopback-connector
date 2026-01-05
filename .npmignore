@@ -15,9 +15,6 @@ checkstyle.xml
 loopback-connector-*.tgz
 .nyc_output
 coverage
-.vscode
-
-# Code editors
-\#*#
-*~
-.#*
+.vscodetest
+.travis.yml
+test

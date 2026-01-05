@@ -1,0 +1,112 @@
+name: CI
+
+on:
+  push:
+    branches:
+    - master
+  pull_request:
+    branches:
+    - master
+  schedule:
+    - cron: '0 2 * * 1' # At 02:00 on Monday
+
+permissions: {}
+
+jobs:
+  test:
+    name: Test
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 15
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node-version: [20, 22, 24]
+        include:
+          - os: macos-latest
+            node_version: 22
+          - os: windows-latest
+            node_version: 22
+      fail-fast: false
+    steps:
+      - uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@395ad3262231945c25e8478fd5baf05154b1d79f # v6.1.0
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Bootstrap project
+        run: npm ci --ignore-scripts
+      - name: Run tests
+        run: npm run-script test:ci
+      - name: Publish coverage report to Coveralls
+        uses: coverallsapp/github-action@648a8eb78e6d50909eff900e4ec85cab4524a45b # v2.3.6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          flag-name: run-${{ matrix.os }}-node@${{ matrix.node-version }}
+          parallel: true
+
+  posttest:
+    name: Post-Test
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+    - name: Coveralls finished
+      uses: coverallsapp/github-action@648a8eb78e6d50909eff900e4ec85cab4524a45b # v2.3.6
+      with:
+        github-token: ${{ secrets.github_token }}
+        parallel-finished: true
+
+  code-lint:
+    name: Code Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
+      - name: Use Node.js 22
+        uses: actions/setup-node@395ad3262231945c25e8478fd5baf05154b1d79f # v6.1.0
+        with:
+          node-version: 22.21.1
+      - name: Bootstrap project
+        run: npm ci --ignore-scripts
+      - name: Verify code linting
+        run: npm run lint
+
+  commit-lint:
+    name: Commit Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
+        with:
+          fetch-depth: 0
+      - name: Use Node.js 22
+        uses: actions/setup-node@395ad3262231945c25e8478fd5baf05154b1d79f # v6.1.0
+        with:
+          node-version: 22.21.1
+      - name: Bootstrap project
+        run: npm ci --ignore-scripts
+      - name: Verify commit linting
+        run: |
+          npx \
+            --no-install \
+            --package=@commitlint/cli \
+            -- \
+            commitlint \
+              --from=origin/master \
+              --to=HEAD \
+              --verbose
+
+  codeql:
+    name: CodeQL
+    runs-on: ubuntu-latest
+    permissions:
+      # See: https://github.com/github/codeql-action/blob/008b2cc71c4cf3401f45919d8eede44a65b4a322/README.md#usage
+      security-events: write
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
+    - name: Initialize CodeQL
+      uses: github/codeql-action/init@5d4e8d1aca955e8d8589aabd499c5cae939e33c7 # v4.31.9
+      with:
+        languages: 'javascript'
+        config-file: ./.github/codeql/codeql-config.yaml
+
+    - name: Perform CodeQL Analysis
+      uses: github/codeql-action/analyze@5d4e8d1aca955e8d8589aabd499c5cae939e33c7 # v4.31.9
